@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281.52 263.38"><title>Logo-main</title><path d="M91.78,124.63v0H26.91c-19.61,0-18.58,13.5-18.58,13.5v23.17c0,15.31,20.24,15.35,20.24,15.35h3.78V171.8H28.57s-9-.12-9-10.71l.19-24.37c0-6.76,6.65-6.76,6.65-6.76H53.57v6.28H49.42l-5.18,14.82V140.13a4.39,4.39,0,0,0-.87-3.09,3.65,3.65,0,0,0-2.9-1.13H22.82v28.31s.18,3.14,4.6,3.14H39.11v-4.94H34.45V147.73l2.33-.12h1.81a1.45,1.45,0,0,1,1,.38,3.16,3.16,0,0,1,.76,2.42c0,3.24,0,8.66,0,8.66v.19h5.07l4.66-9.75h3.43v21.17H64.66V130H90.43v5.95h-23v28.31s.18,3.14,4.6,3.14H83.68v-4.94H79V147.73l2.33-.12h9.08v23.07h10.64V124.63Z" transform="translate(-8.32 -4.74)" style="fill:#ec1c24"/><path d="M182.72,124.61H123.19v0H105.7v36.65c0,15.31,23.33,15.35,23.33,15.35h3.63V171.8H129s-10.33-.12-10.33-10.71l.21-31.13h3.37v28h.14v.54h7.27a11.4,11.4,0,0,0,8.07-3.22l7.42-7.45v22.91h10.45l.41-35h-9.78l-.17.18-11.54,11.25V130h45.54c5.43,0,6.29,4.65,6.42,5.95H160v28.31s.21,3.14,5.3,3.14h13.48v-4.94h-5.37V147.73l2.69-.12h10.47v23.07h6c3.46,0,6.25-2.48,6.25-5.54V136.25S198.74,125,182.72,124.61Z" transform="translate(-8.32 -4.74)" style="fill:#008f4c"/><path d="M106.51,119.07S118.2,37.33,162.77,6.23a8.22,8.22,0,0,1,11,1.38l23.68,27.72S127.87,61.94,106.51,119.07Z" transform="translate(-8.32 -4.74)" style="fill:#80c242"/><path d="M129.8,92.4S189.17,36,243.24,38.73a8.91,8.91,0,0,1,8.44,8.58l1.37,35.76S182,60.82,129.8,92.4Z" transform="translate(-8.32 -4.74)" style="fill:#0db04b"/><path d="M164.61,85.93S246,78.49,286.74,114a9.13,9.13,0,0,1,1.34,12.27L267.1,155S225.14,93.5,164.61,85.93Z" transform="translate(-8.32 -4.74)" style="fill:#008f4c"/><path d="M195.94,102.43s68.15,44.41,78.34,97.41a9.49,9.49,0,0,1-6.82,10.89l-33.95,9.44S238.73,145.9,195.94,102.43Z" transform="translate(-8.32 -4.74)" style="fill:#005aa9"/><path d="M210.29,134.8s25.43,75.63,1.76,123.62a10.92,10.92,0,0,1-14,5.18l-31.27-13.13S216.91,195.43,210.29,134.8Z" transform="translate(-8.32 -4.74)" style="fill:#2e3191"/><path d="M201.48,169.09s-26.83,74.81-75,98a11.25,11.25,0,0,1-14.66-4.77L95.6,232.86S169.07,220.77,201.48,169.09Z" transform="translate(-8.32 -4.74)" style="fill:#5c2d90"/><path d="M173.3,190.53s-67.74,42.25-119.91,30.28a10.88,10.88,0,0,1-8.25-12.39l5.55-33.5S115.84,211,173.3,190.53Z" transform="translate(-8.32 -4.74)" style="fill:#ec1c24"/><template xmlns="" id="transover-popup-template">
+  <style>
+    .pos_translation {
+      padding-bottom: 3px;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    .rtl {
+      direction: rtl;
+    }
+
+    main {
+      color: #333;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: initial;
+
+      background: #fcf7d9;
+      text-align: left;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ccc;
+      box-shadow: rgba(0,0,0,0.2) 0px 2px 5px;
+      border-radius: 5px;
+      padding: 6px 8px 3px 8px;
+      position: fixed;
+      z-index: 2147483647;
+      top: -1500px;
+      left: 0;
+      box-sizing: content-box;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+
+      /* To fix the following issue:
+      1. Have translate on hover enabled (opposed to translate on click).
+      2. Wisit a website that has a dropdown menu that opens on hover.
+      3. Open the menu.
+      4. Hover over a word within that menu.
+      5. Incidentally move the cursor over the TransOver popup.
+      The hover menu gets closed.
+      */
+      pointer-events: none;
+    }
+
+    .pos_translation {
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .from_lang {
+      color: grey;
+      font-size: 0.8em;
+      line-height: 1.2em;
+      margin-top: 2px;
+      margin-bottom: 3px;
+    }
+  </style>
+
+  <main translate="no"/>
+</template></svg>

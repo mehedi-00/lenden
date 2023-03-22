@@ -1,0 +1,195 @@
+
+/* <!-- ==============
+   header mrnu position
+ ======================== -->  */
+#header_area.left_menu .col-md-3 {
+  order: 2;
+}
+#header_area.left_menu .col-md-9 {
+  order: 1;
+}
+#header_area.left_menu .col-md-9 ul {
+  text-align: left;
+}
+/* ==========center_menu =========== */
+#header_area.center_menu .col-md-3 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#header_area.center_menu .col-md-9 {
+  width: 100%;
+}
+#header_area.center_menu .col-md-9 ul {
+  text-align: center;
+}
+#header_area.center_menu .col-md-9 ul ul{
+  text-align: left;
+}
+
+/* =======================
+   body_area
+=================================*/
+#body_area{padding: 45px 0;}
+#body_area .blog_area {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 10px #ddd;
+}
+#body_area .post_thumb {
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+#body_area .post_thumb img{width: 100%;display: block;transition: 0.4s; height: 450px;}
+#body_area .post_thumb img:hover{transform: scale(1.1);}
+#body_area .post_details {width: 100%;}
+#body_area .post_details p span{
+  display: inline-block;
+  margin: 0 5px;
+}
+#body_area .post_details h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+#body_area .post_details h2 a{
+  color: var(--black);
+  text-decoration: none;
+  transition: 0.5s;
+}
+#body_area .post_details h2 a:hover{
+  color: var(--pink);
+}
+/* =======================
+    pages nave Style
+=================================*/
+.pages {
+  background: var(--pink);
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.pages span {
+  padding: 0 5px;
+  color: var(--black);
+}
+.page-numbers {
+  color: var(--black);
+  background: var(--pink);
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.page-numbers.current{
+  color: var(--pink);
+  background: var(--black);
+}
+/* =======================
+    child_sidebar_raea Style
+=================================*/
+.child_sidebar h2 {
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+select option:hover {
+  background-color: #f0f0f0 !important;
+}
+select#archives-dropdown-2 option:hover,
+.child_sidebar ul li a:hover {
+  color: var(--pink)!important;
+}
+       
+select#wp-block-archives-2{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.child_sidebar .wp-block-search__button.wp-element-button {
+  margin: 0;
+  background: var(--pink);
+  color: #fff;
+}
+.child_sidebar ul li {
+  margin: 0;
+  display: block;
+}
+.child_sidebar ul li a{
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--black);
+}
+/* ====== */
+.search_title .title,.archive_title .title {
+  color: var(--pink);
+  font-size: 35px;
+  box-shadow: 0 0 10px 0 #ddd;
+  padding: 5px;
+  margin-bottom: 15px;
+  width: fit-content;
+}
+.search_title .title span{font-size: 25px; color: var(--black);text-decoration: unset;}
+
+/* =======================
+    commentform_raea Style
+=================================*/
+#comment_area {
+  box-shadow: 0 0 10px 0 #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+#commentform textarea#comment {
+  width: 50%;
+  height: 80px;
+  border-radius: 10px;
+  border: 4px double;
+}
+#commentform textarea#comment:focus {
+  font-size: 18px;
+  background: #ddd;
+  outline-offset:10px var(--pink);
+}
+p.comment-form-email input,
+p.comment-form-url input,
+p.comment-form-author input {
+  width: 50%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+/* =======================
+    copyright_raea Style
+=================================*/
+#footer_area{
+background: #262626;
+padding: 30px 0;
+}
+.child_footer{
+  background: pink;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 270px;
+  max-height: 270px;
+}
+#copyright_raea{
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+.copyright_p{border-top: 1px solid #fff; padding-top: 10px;}
+#copyright_raea p{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+}
+#copyright_raea p a{
+  color: rgb(254, 22, 72);
+}
+#copyright_raea p a:hover{
+  text-decoration: underline;
+}

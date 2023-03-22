@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Medium Layout: 1028px.
+   ========================================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* ===========contact_us_Area=============== */
+   #contact_us_Area #my-form {padding-right: 0px;}
+}
+
+/* ==========================================================================
+   Tablet Layout: 768px. 
+   ========================================================================== */
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+   #header_area ul li a { padding: 40px 10px;}
+   #slider_area img {height: 700px;}
+   .container{ max-width: 900px;padding: 0 25px; }
+
+   /* ===atm-and-pos-proposed. Page style==== */
+   #atm_searvice_area { background-attachment: unset;}
+   .nps_connected {width: 81%;}
+   .col-md-4.atm_image { padding: 0;}
+   .nps_connected h4 {font-size: 20px;}
+   #Proposed_Features_Area {padding: 130px 0 50px 0;}
+   .Features_Colum p.Features_P {font-weight: 600;}
+
+      /* ==================smart_cart_area style==================== */
+   .swiper-slide.swiper-slide-duplicate.swiper-slide-active, .swiper-slide.swiper-slide-active, .swiper-slide.swiper-slide-next {margin-right: 10px !important; width: 55% !important;}
+   .card-image {height: 140px;width: 200px;}
+   #international_slide_Area {background-attachment: inherit;}
+
+   /* ==============omni-channel-contact-center-solution================== */
+   #Advanced_Call_Routing_Area { padding-bottom: 0; }
+   #Document_Data_Processing_area .container{max-width: 970px;padding: 10px;}
+   /* ===========contact_us_Area=============== */
+   #contact_us_Area #my-form {padding-right: 0px;}
+   #contact_us_Area .container {max-width: 1000px;}
+      /* ===========MISSION_AND_VISION_AREA=============== */
+   #MISSION_AND_VISION_AREA {background-attachment: inherit;}
+}
+
+/* ==========================================================================
+   Wide Mobile Layout: 480px.
+   ========================================================================== */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+   .slicknav_menu {display: block;}
+#header_area { background: #fff; position: fixed;left: 0;top: 0;width: 100%; padding: 10px 0;}
+#header_area .container {max-width: 670px;}
+#header_area .header_logo img {width: 85px;}
+    /* =========slicknav_nav=========== */
+#header_area ul#nav{display: none;}
+.slicknav_nav {top: 100px;width: 100%;background: #fff;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);}
+.slicknav_btn {background-color: #ddd; margin-right: 100px;margin-top: 25px;}
+.slicknav_menu .slicknav_icon-bar {  background: #262626;}
+.slicknav_nav .sub_arrow {  display: none;}
+.slicknav_nav li a{  color: #262626;}
+.slicknav_nav li ul li a:hover,
+.slicknav_nav li a:hover{ background: none !important;  color: red;}
+
+/* ============child_Services=============== */
+.child_Services { margin-bottom: 25px;}
+.Child_Call_Center {width: 33%; min-height: 155px;}
+.call_2img {display: flex;justify-content: center;align-items: center;width: 50%;min-height: 155px;}
+.social_area ul,.footer_logo_area{text-align: center;}
+
+ /* ===atm-and-pos-proposed. Page style==== */
+ #atm_proposed_area,#Omni_channel_Contact_area,#Document_Digitization_area,#Contact_us_area,#About_area {padding: 200px 0 150px 0;}
+#atm_searvice_area {height: 975px;}
+#atm_searvice_area .col-md-4.atm_image {max-width: 65%;margin: 0 auto;margin-top: 100px;}
+.nps_connected {width: 100%;}
+.nps_connected_content {flex-direction: column;}
+.nps_connected h4 { width: 100%;}
+.nps_connected img { margin: 10px 0;}
+#Proposed_Features_Area .Features_Colum .col-2,#Proposed_Features_Area .Features_Colum .col-10 ,#Proposed_Features_Area h1.head_title{width: 100%;text-align: center;}
+
+/* ============Document_Digitization_searvice_area================== */
+#Document_Digitization_searvice_area .col-md-5 img{margin-bottom: 30px;}
+#Document_Data_Processing_area .col-md-3 {width: 100%;padding: 0 20px;}
+#Document_Data_Processing_area .col-md-3 img{width: 50%;}
+#Document_Data_Processing_area .child_Services {margin: 10px auto;
+   text-align: center;}
+
+    /* ===========contact_us_Area=============== */
+   #contact_us_Area #my-form {padding-right: 0px; margin-bottom: 40px;}
+   #contact_us_Area .form_name_feld {flex-direction: column;}
+   
+
+}
+
+
+/* ==========================================================================
+   Wide Mobile Layout: 480px. minimum devicea
+   ========================================================================== */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+   .slicknav_btn { margin-right: 60px; }
+   #atm_searvice_area .col-md-4.atm_image {max-width: 95%;}
+   #nps_section { margin-top: 10px;}
+
+   /* ================smart_cart_area style=============== */
+   #smart_card_Area img { margin: 0px 0 20px 0;}
+   #counter_Area .counter_content {margin-bottom: 35px; }
+   .row.accotdion_area_2 .col-md-5 h1.head_title{margin-top: 30px;}
+   .swiper-slide.swiper-slide-duplicate.swiper-slide-active, .swiper-slide.swiper-slide-active, .swiper-slide.swiper-slide-next {margin-right: 10px !important; width: 100% !important;}
+      .card-image {width: 250px; }
+
+}
